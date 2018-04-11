@@ -1,4 +1,6 @@
-FROM ubuntu
+FROM ubuntu:latest
+MAINTAINER Steven Fourie "stevenfx@outlook.com"
+
 ENV JAVA_HOME /usr/lib/jvm/java-9-oracle
 ENV JRE_HOME ${JAVA_HOME}/jre
 ENV GRADLE_VERSION=4.6
